@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+backend/venv/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Local logs
+*.log
+frontend/vite.out.log
+frontend/vite.err.log
+
+# Runtime/generated project data
+backend/uploads/*
+outputs/*
+
+# Keep folders in Git
+!backend/uploads/.gitkeep
+!outputs/.gitkeep
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
