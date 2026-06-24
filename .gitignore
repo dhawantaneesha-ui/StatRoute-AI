@@ -24,10 +24,12 @@ frontend/vite.err.log
 # Runtime/generated project data
 backend/uploads/*
 outputs/*
+models/*
 
 # Keep folders in Git
 !backend/uploads/.gitkeep
 !outputs/.gitkeep
+!models/.gitkeep
 
 # OS/editor
 .DS_Store
